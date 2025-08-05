@@ -1,1 +1,1 @@
-carandbike-automation
+This repository contains automation scripts for Carandbike.com, a leading Indian automotive website. Using Python, Selenium, and PyCharm, this project simulates browser actions such as navigation, data scraping, interaction with forms, and automated testing of car/bike listings and news articles.
