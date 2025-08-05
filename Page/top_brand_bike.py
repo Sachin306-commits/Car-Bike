@@ -29,6 +29,22 @@ class Top_Brand:
         safe_click(self.driver,(By.XPATH,"(//input[@type='checkbox'])[4]"))
     def compare_button(self):
         safe_click(self.driver,(By.XPATH,"//button[text()='Compare Now']"))
+    def scroll_to_royal_spec(self):
+        self.driver.execute_script("window.scrollBy(0, 725);")
+    def royal_color(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Colors']"))
+    def expert_rating(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Expert Rating']"))
+    def Engine_Performance(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Engine & Performance']]"))
+    def Dimension_Weight(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Dimension and Weight']"))
+    def Fuel_Efficiency(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Fuel Efficiency']"))
+    def Suspension_Brakes(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Suspension Brakes & Wheels']"))
+    def Standard_Features(self):
+        safe_click(self.driver,(By.XPATH,"//a[@title='Standard Features']"))
 
 
 
