@@ -108,6 +108,17 @@ class Locators:
     Royal_compare2 = "(//input[@type='checkbox'])[3]"
     Royal_compare3 = "(//input[@type='checkbox'])[4]"
     Royal_compare_button = "//button[text()='Compare Now']"
+    royal_color = "//a[@title='Colors']"
+    expert_rating = "//a[@title='Expert Rating']"
+    Engine_Performance = "//a[@title='Engine & Performance']"
+    Dimension_Weight = "//a[@title='Dimension and Weight']"
+    Fuel_Efficiency = "//a[@title='Fuel Efficiency']"
+    Suspension_Brakes = "//a[@title='Suspension Brakes & Wheels']"
+    Standard_Features = "//a[@title='Standard Features']"
+
+
+
+
 
 
 
