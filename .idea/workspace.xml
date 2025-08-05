@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Car_Bike.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/test_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/articles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/comparison_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/expert_form_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/new_bike_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/search_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/sell_car_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/top_brand_bike.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_articles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_compare_vehicles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_expert_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_new_bikes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_news_reviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_sell_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_top_brand_bike.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/selenium_helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capture_screenshot/screenshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_e2e.py" afterDir="false" />
-    </list>
+    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +73,15 @@
       <option name="presentableId" value="Default" />
       <updated>1754028249705</updated>
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <option name="closed" value="true" />
+      <created>1754377790635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754377790635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
