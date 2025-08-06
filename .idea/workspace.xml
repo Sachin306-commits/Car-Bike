@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="Car_scrap_page">
+      <change afterPath="$PROJECT_DIR$/Page/social_media.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_social_media.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/scrap_your_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/scrap_your_car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_articles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_top_brand_bike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_top_brand_bike.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/locators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Sachin Kumar Tiwari/PycharmProjects/Car_Bike",
+    "last_opened_file_path": "C:/Users/Sachin Kumar Tiwari/PycharmProjects/Testing-Project",
     "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
@@ -121,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754467355220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Car_scrap_page">
+      <option name="closed" value="true" />
+      <created>1754469354336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754469354336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
