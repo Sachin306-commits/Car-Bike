@@ -123,6 +123,15 @@ class Locators:
     scrap_your_car_steps = "//div[@data-widget ='ImageScroller']"
     why_choose_car = "(//div[@class='wrapper'])[8]"
 
+    #Socal media touch
+    youtube = "(//img[@alt='car&bike Youtube'])"
+    Twitter = "(//img[@alt='car&bike Twitter'])"
+    Instagram = "(//img[@alt='car&bike Instagram'])"
+    facebook = "(//img[@alt='car&bike Facebook'])"
+    Linkedin = "(//img[@alt='car&bike Facebook'])"
+    whatsup = "(//img[@alt='car&bike WhatsApp'])"
+
+
 
 
 

@@ -12,7 +12,7 @@ user_data = test_list[0]
 
 
 @pytest.mark.smoke
-def test_about_us(browserInstance):
+def test_articles_us(browserInstance):
     browserInstance.get("https://www.carandbike.com/")
 
     browserInstance.maximize_window()
