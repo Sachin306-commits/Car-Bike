@@ -41,8 +41,12 @@ class social_media:
 
     def scroll4(self):
         self.driver.switch_to.window(driver.window_handles[0])
+
     def whatsup(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike WhatsApp'])"))
 
     def scroll5(self):
         self.driver.switch_to.window(driver.window_handles[0])
+
+    def office_add(self):
+        print(safe_get_text(self.driver,(By.XPATH,"(//div[@class='fAddr'])[1]")))

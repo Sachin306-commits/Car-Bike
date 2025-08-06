@@ -3,7 +3,7 @@ import time
 
 import pytest
 from Utils.locators import Locators
-from Utils.selenium_helpers import safe_click, safe_send_keys
+from Utils.selenium_helpers import safe_click, safe_send_keys, safe_get_text
 
 test_data_path = r'C:\Users\Sachin Kumar Tiwari\PycharmProjects\Car_Bike\Data\test_data.json'
 with open(test_data_path) as f:
@@ -28,3 +28,4 @@ def test_social_media(browserInstance):
     browserInstance.switch_to.window(browserInstance.window_handles[0])
     safe_click(browserInstance, Locators.whatsup)
     browserInstance.switch_to.window(browserInstance.window_handles[0])
+    print(safe_get_text(browserInstance,Locators.office_add))
