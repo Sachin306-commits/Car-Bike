@@ -130,6 +130,7 @@ class Locators:
     facebook = "(//img[@alt='car&bike Facebook'])"
     Linkedin = "(//img[@alt='car&bike Facebook'])"
     whatsup = "(//img[@alt='car&bike WhatsApp'])"
+    office_add = "(//div[@class='fAddr'])[1]"
 
 
 
