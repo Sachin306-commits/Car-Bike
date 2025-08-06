@@ -120,6 +120,8 @@ class Locators:
 
     car_service_main = "(//span[text()='Car services'])[1]"
     scrap_your_car = "(//span[text()='Scrap Your Car'])[1]"
+    scrap_your_car_steps = "//div[@data-widget ='ImageScroller']"
+    why_choose_car = "(//div[@class='wrapper'])[8]"
 
 
 
