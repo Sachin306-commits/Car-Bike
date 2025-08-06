@@ -15,21 +15,34 @@ class social_media:
 
     def youtube(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike Youtube'])"))
+
+    def scroll(self):
         self.driver.switch_to.window(driver.window_handles[0])
 
     def Twitter(self):
         safe_click(self.driver, (By.XPATH,"(//img[@alt='car&bike Twitter'])"))
+
+    def scroll1(self):
         self.driver.switch_to.window(driver.window_handles[0])
 
     def Instagram(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike Instagram'])"))
+
+    def scroll2(self):
         self.driver.switch_to.window(driver.window_handles[0])
+
     def facebook(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike Facebook'])"))
+
+    def scroll3(self):
         self.driver.switch_to.window(driver.window_handles[0])
     def Linkedin(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike Facebook'])"))
+
+    def scroll4(self):
         self.driver.switch_to.window(driver.window_handles[0])
     def whatsup(self):
         safe_click(self.driver, (By.XPATH, "(//img[@alt='car&bike WhatsApp'])"))
+
+    def scroll5(self):
         self.driver.switch_to.window(driver.window_handles[0])
