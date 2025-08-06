@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="final">
+    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/Page/scrap_your_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_scrap_your_car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs.png" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kawasaki_650.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kawasaki_650.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/top_brand_bike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/top_brand_bike.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_articles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_compare_vehicles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_compare_vehicles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_expert_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_expert_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_new_bikes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_new_bikes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_news_reviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_news_reviews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_sell_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_sell_car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_top_brand_bike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_top_brand_bike.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_screenshot/screenshot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +45,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Sachin Kumar Tiwari/PycharmProjects/Car_Bike",
     "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
 }]]></component>
   <component name="RunManager">
@@ -115,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754378186455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <option name="closed" value="true" />
+      <created>1754397143405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754397143405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +122,8 @@
       <map>
         <entry key="8cfc52b0-cc8d-416c-a070-f327ce6cc0c3" value="TOOL_WINDOW" />
         <entry key="923b2c8c-13ce-4c96-896e-c09f4a9cee0e" value="TOOL_WINDOW" />
+        <entry key="34a56c8f-7425-4a17-809f-1c3d54ab01a0" value="TOOL_WINDOW" />
+        <entry key="5c736d7f-b316-4409-92f1-3209fb690117" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -158,6 +159,40 @@
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="34a56c8f-7425-4a17-809f-1c3d54ab01a0">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="5c736d7f-b316-4409-92f1-3209fb690117">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="8cfc52b0-cc8d-416c-a070-f327ce6cc0c3">
           <value>
             <State />
@@ -176,7 +211,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -195,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -205,6 +241,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_articles.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
