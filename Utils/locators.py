@@ -116,6 +116,11 @@ class Locators:
     Suspension_Brakes = "//a[@title='Suspension Brakes & Wheels']"
     Standard_Features = "//a[@title='Standard Features']"
 
+    #Scrap your car
+
+    car_service_main = "(//span[text()='Car services'])[1]"
+    scrap_your_car = "(//span[text()='Scrap Your Car'])[1]"
+
 
 
 
