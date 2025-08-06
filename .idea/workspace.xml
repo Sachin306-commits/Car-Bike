@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/Page/scrap_your_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_scrap_your_car.py" afterDir="false" />
+    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="Car_scrap_page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/scrap_your_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/scrap_your_car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/locators.py" afterDir="false" />
     </list>
@@ -114,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754397143405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Car_scrap_page">
+      <option name="closed" value="true" />
+      <created>1754467355220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754467355220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +238,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="Car_scrap_page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car_scrap_page" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
