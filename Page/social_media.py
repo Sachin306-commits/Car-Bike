@@ -50,3 +50,6 @@ class social_media:
 
     def office_add(self):
         return safe_get_text(self.driver, (By.XPATH, "(//div[@class='fAddr'])[1]"))
+    def print_message(self):
+        return safe_get_text("This Testcase will be failed automatically")
+
