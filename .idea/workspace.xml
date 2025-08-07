@@ -159,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754479971641</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="social_media.py">
+      <option name="closed" value="true" />
+      <created>1754480622491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754480622491</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +176,7 @@
         <entry key="8cfc52b0-cc8d-416c-a070-f327ce6cc0c3" value="TOOL_WINDOW" />
         <entry key="923b2c8c-13ce-4c96-896e-c09f4a9cee0e" value="TOOL_WINDOW" />
         <entry key="34a56c8f-7425-4a17-809f-1c3d54ab01a0" value="TOOL_WINDOW" />
-        <entry key="5c736d7f-b316-4409-92f1-3209fb690117" value="TOOL_WINDOW" />
+        <entry key="c9b459b8-c0b5-4c1a-956c-51f44154de57" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -221,23 +229,6 @@
             </State>
           </value>
         </entry>
-        <entry key="5c736d7f-b316-4409-92f1-3209fb690117">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="8cfc52b0-cc8d-416c-a070-f327ce6cc0c3">
           <value>
             <State />
@@ -266,6 +257,11 @@
           </value>
         </entry>
         <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="c9b459b8-c0b5-4c1a-956c-51f44154de57">
           <value>
             <State />
           </value>
