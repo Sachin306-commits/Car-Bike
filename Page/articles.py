@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from Utils.selenium_helpers import safe_click, safe_get_text
 
-class Articles:
+class articles:
     def __init__(self, driver):
         self.driver = driver
 
