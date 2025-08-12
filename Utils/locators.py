@@ -133,6 +133,14 @@ class Locators:
     office_add = "(//div[@class='fAddr'])[1]"
 
 
+    #First Look
+    video= "(//span[text()='Videos'])[1]"
+    first_look = "(//span[text()='First Look'])[1]"
+    arrow_1 = "//div[@class='arrowRight']"
+    categories = "//div[@class='listContainer grid card  ']"
+
+
+
 
 
 

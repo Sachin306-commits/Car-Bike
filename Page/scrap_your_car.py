@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.common.by import By
 from Utils.selenium_helpers import safe_click, safe_send_keys, safe_get_text
 
-class SearchPage:
+class Scrap_your_car:
     def __init__(self, driver):
         self.driver = driver
     def self_service_main(self):
