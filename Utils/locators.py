@@ -139,6 +139,23 @@ class Locators:
     arrow_1 = "//div[@class='arrowRight']"
     categories = "//div[@class='listContainer grid card  ']"
 
+    #Keep in touch
+
+    scrollButton = "window.scrollBy(0,document.body.scrollHeight);"
+    address = "//div[@class='fAddr']"
+    contact = "//div[@class='fTel flex gridAc mb10']"
+    email = "//div[@class='fTel flex gridAc']"
+    copyright = "(//div[@class='fAddr'])[2]"
+
+    #Test Budget bike button
+    New_bike_budget = "(//span[@class='uppercase'])[5]"
+    New_bike_budget_button = "(//span[@class='nListTitle'])[14]"
+    New_bike_budget_button_price = "(//button[@type='button'])[4]"
+    New_bike_budget_button_type = "(//button[@type='button'])[8]"
+    New_bike_budget_button_search = "(//button[text()='Search'])[1]"
+    Key_highlights = "(//div[@class='card toggleSlide '])[1]"
+    faq = "(//div[@id='faqs'])[1]"
+
 
 
 

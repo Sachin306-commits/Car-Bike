@@ -12,7 +12,7 @@ with open(test_data_path) as f:
 
 user_data = test_list[0]
 @pytest.mark.smoke
-def test_sell_car(browserInstance):
+def test_scrap_your_car(browserInstance):
     browserInstance.get("https://www.carandbike.com/")
     browserInstance.maximize_window()
     safe_click(browserInstance, Locators.car_service_main)

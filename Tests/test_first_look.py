@@ -11,7 +11,7 @@ with open(test_data_path) as f:
 
 user_data = test_list[0]
 @pytest.mark.smoke
-def test_expert_form_and_footer(browserInstance):
+def test_first_look(browserInstance):
     browserInstance.get("https://www.carandbike.com/")
     browserInstance.maximize_window()
     safe_click(browserInstance, Locators.video)
@@ -20,4 +20,5 @@ def test_expert_form_and_footer(browserInstance):
         safe_click(browserInstance,Locators.arrow_1)
     text = safe_get_text(browserInstance,Locators.categories)
     print(f"categories: {text}")
+
 
