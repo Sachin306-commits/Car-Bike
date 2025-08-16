@@ -6,9 +6,10 @@ class Investor_Relations:
 
     def __init__(self, driver):
         self.driver = driver
+
     def scroll_down(self):
         self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);")
     def Investor(self):
         safe_click(self.driver, (By.XPATH, "//a[@title ='Investor Relations']"))
     def content_wrap(self):
-        safe_click(self.driver,(By.XPATH,"//div[@class ='contentWrap']"))
+        return safe_get_text(self.driver,(By.XPATH,"//div[@class ='contentWrap']"))
