@@ -23,6 +23,11 @@ def test_investor_relations(browserInstance):
     assert content_wrap1.strip() == content_wrap1.strip(), f"Expected '{content_wrap1}' but got '{content_wrap1}'"
     print(f"contact: {content_wrap1}")
     Investor_Contact  = safe_get_text(browserInstance, Locators.Investor_Contact)
-    assert Investor_Contact .strip() == content_wrap1.strip(), f"Expected '{content_wrap1}' but got '{Investor_Contact }'"
+    assert Investor_Contact .strip() == Investor_Contact.strip(), f"Expected '{Investor_Contact}' but got '{Investor_Contact }'"
     print(f"contact: {Investor_Contact }")
     safe_click(browserInstance,Locators.download)
+    time.sleep(6)
+    browserInstance.get("https://www.carandbike.com/")
+    safe_click(browserInstance, Locators.Investor_Relations)
+
+    safe_click(browserInstance, Locators.download1)

@@ -162,6 +162,7 @@ class Locators:
     content_wrap = "//div[@class ='contentWrap']"
     Investor_Contact = "//div[@class ='undefined card ']"
     download ="(//button[text() ='Download'])[1]"
+    download1 = "(//button[text() ='Download'])[2]"
 
 
 

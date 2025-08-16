@@ -16,4 +16,11 @@ class Investor_Relations:
     def investor_contact(self):
         return safe_get_text(self.driver(By.XPATH,"//div[@class ='undefined card ']"))
     def download_date(self):
-        return safe_click(self.driver,(By.XPATH,"(//button[text() ='Download'])[1]"))
+        safe_click(self.driver,(By.XPATH,"(//button[text() ='Download'])[1]"))
+    def return_main_window(self):
+        self.driver.get("https://www.carandbike.com/")
+        self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);")
+        safe_click(self.driver, (By.XPATH, "//a[@title ='Investor Relations']"))
+    def download_data_2(self):
+        safe_click(self.driver,(By.XPATH,"(//button[text() ='Download'])[2]"))
+
