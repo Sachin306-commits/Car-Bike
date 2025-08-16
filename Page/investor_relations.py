@@ -13,3 +13,7 @@ class Investor_Relations:
         safe_click(self.driver, (By.XPATH, "//a[@title ='Investor Relations']"))
     def content_wrap(self):
         return safe_get_text(self.driver,(By.XPATH,"//div[@class ='contentWrap']"))
+    def investor_contact(self):
+        return safe_get_text(self.driver(By.XPATH,"//div[@class ='undefined card ']"))
+    def download_date(self):
+        return safe_click(self.driver,(By.XPATH,"(//button[text() ='Download'])[1]"))
