@@ -31,3 +31,4 @@ def test_investor_relations(browserInstance):
     safe_click(browserInstance, Locators.Investor_Relations)
 
     safe_click(browserInstance, Locators.download1)
+    time.sleep(6)
