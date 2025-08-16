@@ -34,6 +34,15 @@ def run_all():
         "tests/test_new_bikes.py",
         "tests/test_expert_form.py",
         "tests/test_news_reviews.py"
+        "tests/test_articles.py"
+        "tests/test_budget_bike_button_check.py"
+        "tests/test_first_look.py"
+        "tests/test_investor_relations.py"
+        "tests/test_keep_in_touch.py"
+        "tests/test_scrap_your_car.py"
+        "tests/test_social_media.py"
+        "tests/test_top_brand_bike.py"
+
     ])
 
 if __name__ == "__main__":
