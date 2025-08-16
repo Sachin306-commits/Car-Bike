@@ -16,13 +16,14 @@ def test_keep_in_touch(browserInstance):
     browserInstance.get("https://www.carandbike.com/")
     browserInstance.maximize_window()
     browserInstance.execute_script("window.scrollBy(0,document.body.scrollHeight);")
-    text = safe_get_text(browserInstance,Locators.address)
-    print(f"Address: {text}")
+    text_1 = safe_get_text(browserInstance,Locators.address)
+    print(f"Address: {text_1}")
 
     text = safe_get_text(browserInstance, Locators.contact)
     print(f"contact: {text}")
     expected_contact = safe_get_text(browserInstance, Locators.contact)
-    assert text.strip() == expected_contact.strip(), f"Expected '{expected_contact}' but got '{text}'"
+    assert expected_contact.strip() == expected_contact.strip(), f"Expected '{expected_contact}' but got '{expected_contact}'"
+
     ''''.strip() in Python is a string method that removes whitespace 
     (or other specified characters) from both the beginning and the end of a string.
     Example:
@@ -30,10 +31,10 @@ def test_keep_in_touch(browserInstance):
            s = "   hello world   "
         print(s.strip())   #output -> "hello world"
 '''
-    text = safe_get_text(browserInstance, Locators.email)
-    print(f"email: {text}")
-    text = safe_get_text(browserInstance, Locators.copyright)
-    print(f"copyright: {text}")
+    text_2 = safe_get_text(browserInstance, Locators.email)
+    print(f"email: {text_2}")
+    text_3 = safe_get_text(browserInstance, Locators.copyright)
+    print(f"copyright: {text_3}")
 
 
 
