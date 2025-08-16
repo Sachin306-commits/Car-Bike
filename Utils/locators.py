@@ -158,8 +158,10 @@ class Locators:
 
     #Investor Relation
 
-    Investor_Relations ="Investor Relations"
+    Investor_Relations ="//a[@title ='Investor Relations']"
     content_wrap = "//div[@class ='contentWrap']"
+    Investor_Contact = "//div[@class ='undefined card ']"
+    download ="(//button[text() ='Download'])[1]"
 
 
 
