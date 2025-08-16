@@ -1,4 +1,3 @@
-# test_e2e.py
 import time
 import pytest
 
