@@ -156,6 +156,11 @@ class Locators:
     Key_highlights = "(//div[@class='card toggleSlide '])[1]"
     faq = "(//div[@id='faqs'])[1]"
 
+    #Investor Relation
+
+    Investor_Relations ="Investor Relations"
+    content_wrap = "//div[@class ='contentWrap']"
+
 
 
 

@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="First_look_of_latest_car_bike.py">
-      <change afterPath="$PROJECT_DIR$/Page/budget_bike_button_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/keep_in_touch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_budget_bike_button_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_keep_in_touch.py" afterDir="false" />
+    <list default="true" id="c7cd2a99-6c66-4734-861c-2bd6e7ef5127" name="Changes" comment="test_first_look.py">
+      <change afterPath="$PROJECT_DIR$/Page/Investor_Relations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_investor_relations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_first_look.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_first_look.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_scrap_your_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_scrap_your_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_keep_in_touch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_keep_in_touch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/locators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755003465755</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test_first_look.py">
+      <option name="closed" value="true" />
+      <created>1755089905505</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755089905505</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +311,8 @@
     <MESSAGE value="Car_scrap_page" />
     <MESSAGE value="social_media.py" />
     <MESSAGE value="First_look_of_latest_car_bike.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="First_look_of_latest_car_bike.py" />
+    <MESSAGE value="test_first_look.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_first_look.py" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -321,6 +327,11 @@
           <url>file://$PROJECT_DIR$/Tests/test_articles.py</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Page/home_page.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
