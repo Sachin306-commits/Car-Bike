@@ -19,7 +19,7 @@ class SearchPage:
         self.driver.execute_script("arguments[0].scrollIntoView(true);", result)
         result.click()
 
-    def capture_result_screenshot(self, filename="Kawasaki_650.png"):
+    def capture_result_screenshot(self, filename="Kawasaki_6501.png"):
         self.driver.get_screenshot_as_file(filename)
 
     def get_overview_text(self):

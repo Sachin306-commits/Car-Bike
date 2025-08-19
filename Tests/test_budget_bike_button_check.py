@@ -19,9 +19,9 @@ def test_compare_vehicles(browserInstance):
     safe_click(browserInstance, Locators.New_bike_budget_button_price)
     safe_click(browserInstance, Locators.New_bike_budget_button_type)
     safe_click(browserInstance, Locators.New_bike_budget_button_search)
-    text = safe_get_text(browserInstance, Locators.Key_highlights)
-    print(f"Key_highlights: {text}")
-    text = safe_get_text(browserInstance, Locators.faq)
-    print(f"FAQ: {text}")
+    text5 = safe_get_text(browserInstance, Locators.Key_highlights)
+    print(f"Key_highlights: {text5}")
+    text7 = safe_get_text(browserInstance, Locators.faq)
+    print(f"FAQ: {text7}")
 
 

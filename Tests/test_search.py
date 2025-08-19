@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from Utils.locators import Locators
-from Utils.selenium_helpers import safe_click, safe_send_keys, safe_get_text
+from Utils.selenium_helpers import safe_click, safe_send_keys, safe_get_text, capture_screenshot
 
 test_data_path = r'C:\Users\Sachin Kumar Tiwari\PycharmProjects\Car_Bike\Data\test_data.json'
 with open(test_data_path) as f:
@@ -26,7 +26,8 @@ def test_search_bar(browserInstance):
     )
     browserInstance.execute_script("arguments[0].scrollIntoView(true);", search_result)
     search_result.click()
-    browserInstance.get_screenshot_as_file("Kawasaki_650.png")
+    capture_screenshot(browserInstance, "Kawasaki_6501")
+
 
     print(safe_get_text(browserInstance, Locators.OVERVIEW_SECTION))
     print(safe_get_text(browserInstance, Locators.ABOUT_SECTION))

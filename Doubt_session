@@ -1,0 +1,66 @@
+'''
+Question No 1 : Can i used browserInstance into POM?
+ChatGPT said:
+
+Great question 👍
+The short answer is:
+
+You don’t use browserInstance directly inside POM.
+But you can pass it from your test into POM — because at the end of the day, browserInstance is just your WebDriver object.
+
+Why?
+
+browserInstance is a pytest fixture.
+
+POM classes are just Python classes — they don’t know about pytest.
+
+That’s why we do this pattern:
+
+# test_used_cars.py
+@pytest.mark.smoke
+def test_used_cars(browserInstance):
+    browserInstance.get("https://www.carandbike.com/")
+    browserInstance.maximize_window()
+
+    # pass browserInstance (WebDriver) into POM
+    used_cars_page = used_cars(browserInstance)
+    used_cars_page.used_cars_button()
+    used_cars_page.top_brand()
+
+# used_cars.py (POM)
+class used_cars:
+    def __init__(self, driver):   # here driver == browserInstance
+        self.driver = driver
+
+    def used_cars_button(self):
+        safe_click(self.driver,(By.XPATH,"(//span[text()='Used Cars'])[1]"))
+        # other clicks ...
+
+
+👉 So yes, you can use browserInstance inside POM, but only through self.driver after passing it from the test.
+
+❌ Wrong way:
+class used_cars:
+    def used_cars_button(self):
+        safe_click(browserInstance, (By.XPATH, "...."))   # ❌ ERROR
+
+
+(because POM doesn’t know what browserInstance is)
+
+✅ Correct way:
+class used_cars:
+    def __init__(self, driver):
+        self.driver = driver
+
+    def used_cars_button(self):
+        safe_click(self.driver, (By.XPATH, "...."))   # ✅ Works
+
+
+🔑 Rule of thumb:
+
+browserInstance lives in test files (pytest fixture).
+
+Inside POM, always use self.driver.
+
+Connect them by passing browserInstance → driver when creating the page object.
+'''
