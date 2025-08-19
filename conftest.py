@@ -2,6 +2,9 @@ import pytest
 from selenium import webdriver
 import os
 
+from Utils.selenium_helpers import capture_screenshot
+
+
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome", help="Browser name: chrome or firefox"
@@ -26,7 +29,6 @@ def browserInstance(request):
     yield driver
 
     driver.quit()
-
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):

@@ -164,6 +164,43 @@ class Locators:
     download ="(//button[text() ='Download'])[1]"
     download1 = "(//button[text() ='Download'])[2]"
 
+    #used cars button
+    used_cars_button = "(//span[text()='Used Cars'])[1]"
+    used_cars_button_2 = "(//span[text()='Used Cars Under ₹ 3 Lakh'])[1]"
+    first_button = "(//span[@class='accordionArrow relative'])[1]"
+    below_3_Lakh ="(//button[text()='Below 3 Lakh'])[1]"
+    three_to_6_lakh = "(//button[text()='3 to 6 Lakh'])[1]"
+    six_to_9_lakh = "(//button[text()='6 to 9 Lakh'])[1]"
+    nine_to_12_lakh = "(//button[text()='9 to 12 Lakh'])[1]"
+    twelve_to_18_Lakh = "(//button[text()='12 to 18 Lakh'])[1]"
+    Above_25_Lakh = "(//button[text()='Above 25 Lakh'])[1]"
+    second_button = "(//span[@class='accordionArrow relative'])[2]"
+    search_name = "(//input[@class='inputWrap '])"
+    arrow_button_25 = "(//span[@class='accordionArrow relative'])[25]"
+    Hatchback = "(//button[text()='Hatchback'])"
+    suv="(//button[text()='SUV'])"
+    sedan = "(//button[text()='Sedan'])"
+    muv = "(//button[text()='MUV'])"
+    Crossover ="(//button[text()='Crossover'])"
+    arrow_button_26 = "(//span[@class='accordionArrow relative'])[26]"
+    Rated_8_0 = "(//button[text()='Rated 8.0+'])"
+    Warranty_Available = "(//button[text()='Warranty Available'])"
+    Financing_Available = "(//button[text()='Financing Available'])"
+    Discounted_Price = "(// button[text() = 'Discounted Price'])"
+    Great_Deals ="(//button[text()='Great Deals'])"
+    Manufactured_Year ="(//span[@class='accordionArrow relative'])[27]"
+    two_And_Newer="(//button[text()='2015 And Newer'])"
+    three_And_Newer = "(//button[text()='2016 And Newer'])"
+    four = "(//button[text()='2017 And Newer'])"
+    five = "(//button[text()='2018 And Newer'])"
+    six = "(//button[text()='2019 And Newer'])"
+    seven = "(//button[text()='2020 And Newer'])"
+
+    #Bike Service center
+    Service_Centers = "//span[text()='Find Bike Service Centers']"
+    service_center_details = "//span[@class='amContent']"
+
+
 
 
 

@@ -6,6 +6,33 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Utility functions
+import os
+import time
+
+
+
+import os
+import time
+
+def capture_screenshot(driver, screenshot_name, folder_name="capture_screenshot"):
+    """
+    Captures a screenshot and saves it to the given folder.
+    """
+    base_dir = os.getcwd()
+    screenshot_dir = os.path.join(base_dir, folder_name)
+    os.makedirs(screenshot_dir, exist_ok=True)
+
+    # Add timestamp to avoid overwriting
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    file_path = os.path.join(screenshot_dir, f"{screenshot_name}_{timestamp}.png")
+
+    driver.get_screenshot_as_file(file_path)
+    print(f"✅ Screenshot saved at: {file_path}")
+
+    return file_path
+
+
+
 def safe_click(driver, xpath, timeout=30):
     for _ in range(3):
         try:
