@@ -1,4 +1,4 @@
-# search_page.py
+
 from selenium.webdriver.common.by import By
 from Utils.selenium_helpers import safe_click, safe_send_keys, safe_get_text
 

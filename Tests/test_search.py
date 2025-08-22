@@ -20,12 +20,8 @@ def test_search_bar(browserInstance):
     browserInstance.maximize_window()
     safe_click(browserInstance, Locators.SEARCH_INPUT)
     safe_send_keys(browserInstance, Locators.SEARCH_INPUT, user_data["search_keyword"])
-    time.sleep(2)
-    search_result = WebDriverWait(browserInstance, 10).until(
-        EC.element_to_be_clickable((By.XPATH, Locators.SEARCH_RESULT))
-    )
-    browserInstance.execute_script("arguments[0].scrollIntoView(true);", search_result)
-    search_result.click()
+    safe_click(browserInstance,Locators.SEARCH_RESULT)
+
     capture_screenshot(browserInstance, "Kawasaki_6501")
 
 
