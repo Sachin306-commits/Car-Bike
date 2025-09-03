@@ -1,13 +1,8 @@
-import time
-
 from selenium.common import StaleElementReferenceException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-# Utility functions
-import os
-import time
+from selenium.webdriver.support.ui import Select
 
 
 
@@ -52,3 +47,20 @@ def safe_get_text(driver, xpath, timeout=30):
     return WebDriverWait(driver, timeout).until(
         EC.presence_of_element_located((By.XPATH, xpath))
     ).text
+
+def safe_select(driver, xpath, value, by="text", timeout=30):
+    for _ in range(3):
+        try:
+            element = WebDriverWait(driver, timeout).until(
+                EC.presence_of_element_located((By.XPATH, xpath))
+            )
+            select = Select(element)
+            if by == "text":
+                select.select_by_visible_text(value)
+            elif by == "value":
+                select.select_by_value(value)
+            elif by == "index":
+                select.select_by_index(int(value))
+            return
+        except StaleElementReferenceException:
+            time.sleep(2)

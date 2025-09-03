@@ -200,6 +200,11 @@ class Locators:
     Service_Centers = "//span[text()='Find Bike Service Centers']"
     service_center_details = "//span[@class='amContent']"
 
+    # Location
+    city_location = "//button[@class='headerBtn gridAc flex caps selectedCity']"
+    city_click = "//input[@type='type here to search']"
+    city_select = "//div[@class='cities active']"
+
 
 
 
