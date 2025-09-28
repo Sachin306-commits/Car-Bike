@@ -2,6 +2,8 @@ import json
 import pytest
 from Utils.locators import Locators
 from Utils.selenium_helpers import safe_click, safe_get_text
+from Page.articles import articles
+
 
 test_data_path = r'C:\Users\Sachin Kumar Tiwari\PycharmProjects\Car_Bike\Data\test_data.json'
 with open(test_data_path) as f:
@@ -10,19 +12,12 @@ with open(test_data_path) as f:
 
 user_data = test_list[0]
 
-
 @pytest.mark.smoke
-def test_articles_us(browserInstance):
-    browserInstance.get("https://www.carandbike.com/")
-
+def test_articles(browserInstance):
+    driver = browserInstance
+    driver.get("https://www.carandbike.com/")
+    driver.maximize_window()
     browserInstance.maximize_window()
-    safe_click(browserInstance, Locators.About_us)
+    article_page = articles(browserInstance)
+    article_page.get_about_us1()
 
-    browserInstance.execute_script("window.scrollBy(0, 200);")
-    safe_click(browserInstance, Locators.AboutUs1)
-
-    browserInstance.get_screenshot_as_file("AboutUs.png")
-
-    print(safe_get_text(browserInstance, Locators.highlights))
-
-    # print(safe_get_text(driver, Locators.NEW_BIKE_LIST))

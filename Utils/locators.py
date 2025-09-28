@@ -94,7 +94,7 @@ class Locators:
     CATEGORY_SECTION = "//div[@id='categories']"
     #About Us
     About_us = "(//span[@class='uppercase'])[8]"
-    AboutUs1="(//a[contains(@href, 'buying-a-new-car-full-payment-vs-emis-which-is-smarter-for-your-money')])[2]"
+
     highlights = "//div[@class='mb30']"
 
     #Top brand bikes
